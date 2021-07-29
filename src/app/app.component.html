@@ -1,0 +1,24 @@
+<header>
+
+  <div class="contain">
+    <a href="#" routerLink="/" class="logo">ANG APP</a>
+    <div class="pro-icon">
+        <img width="40px" height="40px" src="../assets/images/profile.png">
+    </div>
+  </div>
+</header>
+
+<body>
+  <div class="side-contain">
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a href="#" routerLink="/" >Home</a></li>
+  <div class="line"></div>
+  <li routerLinkActive="active"><a href="#" routerLink="stats">Signup Stats</a></li>
+  <div class="line"></div> 
+  <li routerLinkActive="active"><a href="#" routerLink="action">Action</a></li>
+  </div>
+
+</body>
+
+<div class="con"> 
+  <router-outlet></router-outlet>
+</div>

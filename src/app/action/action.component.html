@@ -1,0 +1,10 @@
+<div class="lis">
+  <div class="name" *ngFor ="let values of mobile;">
+    <ul>
+      <li>{{values.name}}</li>
+      <li><button class="delete" (click)="del(values.id)">Remove</button></li>
+    </ul>
+    
+  
+  </div>
+  </div>

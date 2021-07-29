@@ -1,0 +1,26 @@
+.tab{
+    margin-top: 8%;
+    padding-left: 20%;
+    overflow-x:auto;
+}
+table, tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th{
+    padding: 0.5em;  
+}
+.green{
+    color: rgb(1, 66, 1);
+    background: greenyellow;
+}
+@media 
+only screen and (max-width: 960px){
+    .tab{
+        font-size: 10px;
+        margin: 25% 1% 0% 15%;
+        padding-bottom: 5%;
+    }
+
+}

@@ -1,0 +1,23 @@
+<div class="tab">
+  <h2>Signup Status</h2>
+  <table>
+    <tr>
+      <th>Sr. Number</th>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>Email</th>
+      <th>Country</th>
+      <th>signup Status</th>
+      <th>App install Status</th>
+    </tr>
+    <tr *ngFor="let values of signup">
+      <th>{{values.SrNo}}</th>
+      <th>{{values.Name}}</th>
+      <th>{{values.Company}}</th>
+      <th>{{values.Email_Address}}</th>
+      <th>{{values.Country}}</th>
+      <th [ngClass]="{'green':values.Sign_up_Status === 'Done'}">{{values.Sign_up_Status}}</th>
+      <th [ngClass]="{'green':values.App_Set_Up_Status === 'Done'}">{{values.App_Set_Up_Status}}</th>
+    </tr>
+  </table>
+</div>

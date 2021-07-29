@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+:root {
+    --primary: rgb(0, 174, 255);
+    --white: #ffffff;
+    --black: rgb(0,0,0);
+
+    --desktop: 960px;
+    --tablet: 768px;
+    --mobile-large: 640px;
+    --mobile: 480px;
+    --mobile-small: 300px;
+  }
+  body{
+    margin: 0;
+    font-family: 'Nunito',sans-serif;
+    font-size: 18px;
+}
